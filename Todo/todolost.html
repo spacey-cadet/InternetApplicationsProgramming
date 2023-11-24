@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO</title>
+    
 </head>
 <body>
 
-    <input class="taskinput" placeholder="add a task here"/>
-    <button onclick=>Add Task</button>
-    <ul class="mytasks"></ul>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <button onclick="newElement()" class="addBtn">Add</button>
+      </div>
+      <ul id="myUL">
+      </ul>
 
-    <script src="./todo.js" />
+    <script src="./todo.js"></script>
 </body>
 </html>
