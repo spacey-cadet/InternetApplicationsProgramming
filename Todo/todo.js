@@ -1,13 +1,4 @@
 
-var myNodelist = document.getElementsByTagName("LI");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var button = document.createElement("button");
-  button.innerText('completed')
-  button.className = "close";
-  myNodelist[i].appendChild(button);
-}
-
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
