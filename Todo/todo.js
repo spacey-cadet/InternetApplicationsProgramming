@@ -36,11 +36,11 @@ function newElement() {
   }
   document.getElementById("myInput").value = "";
 
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
+  var btn= document.createElement("button");
+  var txt = document.createTextNode("Completed");
+  btn.className = "close";
+  btn.appendChild(txt);
+  li.appendChild(btn);
 
   for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
